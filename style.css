@@ -55,60 +55,76 @@ p {
 .Pic {
     border-radius: 100%;
 }
+
 .container {
     width: 100% !important;
 }
+
 #list {
     list-style-position: inside;
 }
+
 .backdrop {
     background-image: url(tableMountain.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-@media (min-width:760px){
+
+@media (min-width:760px) {
     .Pic {
         margin: auto;
         width: 70%;
     }
+
     .PicCity {
         width: 50%;
         float: left !important;
     }
+
     .cityImage {
-       margin-right: 100px;
+        margin-right: 100px;
     }
+
     .castleImage {
         margin-right: 40px;
     }
+
     .sixImage {
         margin-right: 40px;
     }
 }
+
 @media (max-width:760px) {
     h1 {
         font-size: 10vw;
         text-align: center;
     }
+
     .Pic {
         width: 70%;
         margin-left: 20%;
     }
+
     .PicCity {
         width: 100%;
     }
+
     .cityImage {
         width: 90%;
     }
+
     .castleImage {
         width: 90%;
     }
+
     .sixImage {
         width: 90%;
     }
+
     .city {
         float: right !important;
     }
+
     .castle {
         float: right !important;
     }
