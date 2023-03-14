@@ -44,6 +44,7 @@ h1 {
 
 h2 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 p {
@@ -54,27 +55,37 @@ p {
 .Pic {
     border-radius: 100%;
 }
-
-@media (min-width:960px){
+.container {
+    width: 100% !important;
+}
+#list {
+    list-style-position: inside;
+}
+.backdrop {
+    background-image: url(tableMountain.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@media (min-width:760px){
     .Pic {
-        margin-top: 20%;
-        margin-left: 10%;
+        margin: auto;
         width: 70%;
     }
     .PicCity {
         width: 50%;
+        float: left !important;
     }
     .cityImage {
-       margin-right: 20%;
+       margin-right: 100px;
     }
     .castleImage {
-        margin-right: 20%;
+        margin-right: 40px;
     }
     .sixImage {
-        margin-right: 20%;
+        margin-right: 40px;
     }
 }
-@media (max-width:959px) {
+@media (max-width:760px) {
     h1 {
         font-size: 10vw;
         text-align: center;
@@ -95,5 +106,10 @@ p {
     .sixImage {
         width: 90%;
     }
-
+    .city {
+        float: right !important;
+    }
+    .castle {
+        float: right !important;
+    }
 }
